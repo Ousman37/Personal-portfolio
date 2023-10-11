@@ -9,7 +9,7 @@ type ProjectProps = {
   liveDemoLink: string;
   githubLink: string;
   imageUrl: string;
-  tags: string[];
+  tags: readonly string[]
 };
 
 const Project: React.FC<ProjectProps> = ({
