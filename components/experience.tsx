@@ -1,5 +1,4 @@
 "use client" //🚀
-
 import SectionHeading from './section-heading';
 import { experiencesData } from '@/lib/data';
 import TimelineEntry from './TimelineEntry';
