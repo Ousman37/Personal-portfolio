@@ -45,7 +45,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-- [Your Name](https://github.com/YourUsername)
+- [Ethmane](https://github.com/YourUsername)
 
 Feel free to reach out if you have any questions or would like to collaborate!
 
