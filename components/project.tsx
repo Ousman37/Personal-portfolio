@@ -40,12 +40,15 @@ const Project: React.FC<ProjectProps> = ({
       className="group mb-3 sm:mb-8 last:mb-0 transition-transform duration-300 ease-in-out transform hover:scale-105 "
     >
       <section className="bg-gray-100 rounded-lg shadow-lg sm:max-w-xl p-5 sm:p-10 mx-auto hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20">
-        <Image
-          src={imageUrl}
-          alt={`Screenshot of ${title}`}
-          quality={95}
-          className="w-full h-[13rem] object-cover portfolio-card__image"
-        />
+      <Image
+  src={imageUrl}
+  alt={`Screenshot of ${title}`}
+  width={208} // 13rem * 16px (assuming 1rem = 16px)
+  height={208} // 13rem * 16px (assuming 1rem = 16px)
+  quality={95}
+  className="w-full h-[13rem] object-cover portfolio-card__image"
+/>
+
         <div>
           <h3 className="text-2xl font-semibold portfolio-card__title">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 portfolio-card__text">
