@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ['example.com', 'example2.com'],
+  },
+  experimental: {
+    serverActions: true
+  }
+};
 
-module.exports = nextConfig
+// eslint-disable-next-line no-undef
+module.exports = nextConfig;
