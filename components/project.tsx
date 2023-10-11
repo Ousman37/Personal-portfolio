@@ -1,12 +1,13 @@
-"use client" //🚀
-import { motion, useScroll, useTransform } from 'framer-motion';
+ "use client" //🚀
+ import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
 import { useRef } from 'react';
 
 type ProjectProps = {
   title: string;
   description: string;
-  link: string;
+  liveDemoLink: string;
+  githubLink: string;
   imageUrl: string;
   tags: string[];
 };
@@ -14,7 +15,8 @@ type ProjectProps = {
 const Project: React.FC<ProjectProps> = ({
   title,
   description,
-  link,
+  liveDemoLink,
+  githubLink,
   imageUrl,
   tags,
 }: ProjectProps) => {
@@ -59,14 +61,24 @@ const Project: React.FC<ProjectProps> = ({
               </li>
             ))}
           </ul>
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block mt-4 text-blue-500 hover:underline portfolio-card__link"
-          >
-            View Project
-          </a>
+          <div className="mt-4 flex flex-row">
+            <a
+              href={liveDemoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-grow text-center text-blue-500 hover:underline portfolio-card__link"
+            >
+              View Live Demo
+            </a>
+            <a
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-grow text-center text-blue-500 hover:underline portfolio-card__link"
+            >
+              GitHub Repository
+            </a>
+          </div>
         </div>
       </section>
     </motion.div>
