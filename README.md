@@ -1,7 +1,7 @@
 # Personal Portfolio
 
-![image](![Uploading image.png…]()
-)
+![Portfolio Screenshot](https://github.com/Ousman37/personal-portfolio/blob/main/Screenshot.png?raw=true)
+
 
 
 
@@ -54,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Feel free to reach out if you have any questions or would like to collaborate!
 
-![Portfolio Screenshot](/screenshot.png)
+
