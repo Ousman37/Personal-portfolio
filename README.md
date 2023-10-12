@@ -1,5 +1,9 @@
 # Personal Portfolio
 
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+
+
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/YourUsername/personal-portfolio.svg)](https://github.com/YourUsername/personal-portfolio/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/YourUsername/personal-portfolio.svg)](https://github.com/YourUsername/personal-portfolio/network/members)
