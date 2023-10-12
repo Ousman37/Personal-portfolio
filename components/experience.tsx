@@ -10,7 +10,7 @@ const Experience = () => {
   
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40 dark:bg-gray-900 dark:text-white">
-      <SectionHeading>My Experience</SectionHeading>
+      <SectionHeading>Education</SectionHeading>
       <div className="vertical-timeline">
         {experiencesData.map((experience, index) => (
           <TimelineEntry
