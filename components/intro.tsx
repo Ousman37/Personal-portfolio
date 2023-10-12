@@ -63,13 +63,14 @@ const Intro = () => {
         <TypewriterComponent />
       </motion.h1>
       <motion.p
-        className="mb-10 mt-4 px-4 text-[1.2rem] font-medium !leading-[1.5] sm:4-xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        As a <span className="text-blue-500">Front end developer,</span> I bring a passionate approach to web development, crafting innovative solutions, and transforming ideas into tangible code. I invite you to dive into my{" "}
-        <span className="underline">portfolio</span> and explore the vibrant projects that have shaped my journey through an intensive year of learning and building. Each piece tells a unique story of challenges met, skills honed, and creativity unleashed. Enjoy exploring, and <span className="italic">let&apos;s connect!</span>
-      </motion.p>
+  className="mb-10 mt-4 px-4 text-[1.2rem] font-medium !leading-[1.5] sm:4-xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  I&apos;m a recent <span className="text-blue-500">web development graduate</span> and passionate <span className="text-blue-500">front-end developer</span> with a strong commitment to crafting <span className="text-blue-500">innovative web solutions</span> and turning ideas into code. My goal is to push creative boundaries and deliver exceptional digital experiences. Explore my{" "}
+  <span className="underline">portfolio</span> to see how I&apos;ve tackled challenges and honed my skills. I&apos;m excited to connect with fellow developers and enthusiasts as I embark on new coding endeavors.
+</motion.p>
+
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mt-8"
         initial={{ opacity: 0, y: 100 }}
