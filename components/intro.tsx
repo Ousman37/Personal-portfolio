@@ -63,12 +63,12 @@ const Intro = () => {
         <TypewriterComponent />
       </motion.h1>
       <motion.p
-  className="mb-10 mt-4 px-4 text-[1.2rem] font-medium !leading-[1.5] sm:4-xl"
+  className="mb-10 mt-4 px-4 text-[1rem] font-medium !leading-[1.5] sm:4-xl"
   initial={{ opacity: 0, y: 100 }}
   animate={{ opacity: 1, y: 0 }}
 >
   I&apos;m a recent <span className="text-blue-500">web development graduate</span> and passionate <span className="text-blue-500">front-end developer</span> with a strong commitment to crafting <span className="text-blue-500">innovative web solutions</span> and turning ideas into code. My goal is to push creative boundaries and deliver exceptional digital experiences. Explore my{" "}
-  <span className="underline">portfolio</span> to see how I&apos;ve tackled challenges and honed my skills. I&apos;m excited to connect with fellow developers and enthusiasts as I embark on new coding endeavors.
+  <span className=" text-purple-700">Portfolio</span> to see how I&apos;ve tackled challenges and honed my skills. I&apos;m excited to connect with fellow developers and enthusiasts as I embark on new coding endeavors.
 </motion.p>
 
       <motion.div

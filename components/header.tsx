@@ -54,9 +54,6 @@ const Header = () => {
                   ></motion.span>
                 )}
               </Link>
-            
-      
-             
             </motion.li>
           ))}
         </ul>
