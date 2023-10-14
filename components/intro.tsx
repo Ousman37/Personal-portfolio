@@ -68,7 +68,7 @@ const Intro = () => {
   animate={{ opacity: 1, y: 0 }}
 >
   I&apos;m a recent <span className="text-blue-500">web development graduate</span> and passionate <span className="text-blue-500">front-end developer</span> with a strong commitment to crafting <span className="text-blue-500">innovative web solutions</span> and turning ideas into code. My goal is to push creative boundaries and deliver exceptional digital experiences. Explore my{" "}
-  <span className=" text-purple-700">Portfolio</span> to see how I&apos;ve tackled challenges and honed my skills. I&apos;m excited to connect with fellow developers and enthusiasts as I embark on new coding endeavors.
+  <span className="text-blue-500 font-semibold">portfolio</span>to see how I&apos;ve tackled challenges and honed my skills. I&apos;m excited to connect with fellow developers and enthusiasts as I embark on new coding endeavors.
 </motion.p>
 
       <motion.div
