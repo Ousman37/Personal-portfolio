@@ -1,11 +1,12 @@
 "use client" //🚀
 import React from 'react';
+import dynamic from "next/dynamic";
+
 import SectionHeading from './section-heading';
-// import { FaPaperPlane } from 'react-icons/fa';
+
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 import { sendEmail} from "@/server/sendEmail"
-
 import SubmitBtn from './submit-btn';
 import toast from 'react-hot-toast';
 
@@ -101,4 +102,7 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default dynamic (() => Promise.resolve(ContactForm), {ssr: false})
+
+
+// export default ContactForm;

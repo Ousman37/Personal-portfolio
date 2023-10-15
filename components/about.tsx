@@ -3,6 +3,8 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import { motion } from 'framer-motion'
 import { useSectionInView} from "@/lib/hooks";
+import dynamic from "next/dynamic";
+
 
 const About = () => {
   const {ref } = useSectionInView("About")
@@ -36,5 +38,6 @@ const About = () => {
 </motion.section>
   )
 }
+export default dynamic (() => Promise.resolve(About), {ssr: false})
 
-export default About
+// export default About
