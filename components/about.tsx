@@ -30,7 +30,15 @@ const About = () => {
     Projects: I&apos;ve had the privilege of working on a variety of projects that showcase my skills and my <span className="underline">love</span> for web development. Each project narrates a unique story of creativity and innovation.
   </p>
   <p className="mt-2">
-    Connect: Let&apos;s engage, collaborate, or delve into the latest trends in web development. Don&apos;t hesitate to reach out to me on <a href="https://www.linkedin.com/in/ethmane-ousman-34885844/" className="text-blue-500 underline"><i className="fab fa-linkedin"></i> LinkedIn</a> or <a href="https://github.com/Ousman37" className="text-blue-500 underline"><i className="fab fa-github"></i> GitHub</a>. I&apos;m always open to discussions, collaborations, and <span className="font-bold">new opportunities!</span>
+    Connect: Let&apos;s engage, collaborate, or delve into the latest trends in web development. Don&apos;t hesitate to reach out to me on <a href="https://www.linkedin.com/in/ethmane-ousman-34885844/" className="text-blue-500 underline">
+  <i className="fab fa-linkedin" aria-hidden="true"></i>
+  <span className="sr-only">LinkedIn</span>
+</a>
+<a href="https://github.com/Ousman37" className="text-blue-500 underline">
+  <i className="fab fa-github" aria-hidden="true"></i>
+  <span className="sr-only">GitHub</span>
+</a>
+. I&apos;m always open to discussions, collaborations, and <span className="font-bold">new opportunities!</span>
   </p>
   <p className="mt-4">
     Ready to embark on a project together? Connect with me on LinkedIn or GitHub!
