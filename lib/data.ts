@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import JavaScriptFrameworksImg from "@/public/js_ca.png";
 import mollifyImg from "@/public/mollify.png";
 import SemesterProjectImg from "@/public/proj2.png";
+import vacationExplorerImg from "@/public/vacation-explorer.png";
 
 
 
@@ -40,8 +41,8 @@ export const projectsData = [
     description: "An online auction platform...",
     tags: ["Online Auctions", "User Registration", "Credit System", "Listing Management"],
     imageUrl: SemesterProjectImg,
-    liveDemoLink: "https://example.com/live-demo-link",
-    githubLink: "https://github.com/Ousman37/BidBay-Platform",
+    liveDemoLink: "https://visionary-sprite-8c6f10.netlify.app/",
+    githubLink: "https://github.com/Ousman37/auction-platform-sp2",
   },
   {
     title: "JavaScript Frameworks CA",
@@ -59,6 +60,15 @@ export const projectsData = [
     liveDemoLink: "https://example.com/live-demo-link", // Add the live demo link here
     githubLink: "https://github.com/Fermain/-mollify/tree/master",
   },
+  {
+    title: "My Vacation App",
+    description: "A web application for planning and managing vacations. Built with Next.js, TypeScript, and integrates with various APIs for features like weather forecasts and country information.",
+    tags: ["Next.js", "TypeScript", "API Integration"],
+    imageUrl: vacationExplorerImg,
+    liveDemoLink: "https://vacation-explorer.vercel.app/", 
+    githubLink: "https://github.com/Ousman37/VacationExplorer",
+  },
+  
 ] as const;
 
 

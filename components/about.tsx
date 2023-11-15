@@ -20,9 +20,11 @@ const About = () => {
   id="about"
 >
   <SectionHeading>About me</SectionHeading>
+
   <p className="mt-4">
     Experience: Hailing from North Africa, specifically Mauritania, I bring a rich and diverse background to my journey. I began my career as a chef, instilling in me discipline, time management, and an unwavering commitment to every task. Extensive travels across Europe have nurtured my profound love for exploration. In my free time, I&apos;m an avid enthusiast of both physical fitness and meditation.
   </p>
+ 
   <p className="mt-2">
     Now, as a passionate front-end developer, I leverage this multicultural and multidisciplinary perspective to craft intuitive web experiences. My focus is on front-end development, utilizing HTML, CSS, JavaScript, and JavaScript <span className="italic">Frameworks</span> to create responsive, user-friendly websites.
   </p>

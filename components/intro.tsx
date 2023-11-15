@@ -91,7 +91,7 @@ const Intro = () => {
           <BsArrowRight className="group-hover:translate-x-1 transition ml-2 font-bold opacity-70" />
         </Link>
         <a
-          href="/CV.pdf"
+          href="/EthmaneDidi_Jr Frontend Developer-CV.pdf"
           download={true}
           target="_blank"
           rel="noopener noreferrer"
