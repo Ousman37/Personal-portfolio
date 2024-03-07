@@ -1,4 +1,4 @@
-"use client" //🚀
+'use client'; //🚀
 import React from 'react';
 import SectionHeading from './section-heading';
 import { skillsData } from '@/lib/data';
@@ -8,13 +8,14 @@ import { motion } from 'framer-motion';
 const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
-    y: 100,
+    y: 20,
   },
   animate: (index: number) => ({
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.05 * index,
+      delay: 0.1 + index * 0.05,
+      duration: 0.4,
     },
   }),
 };
@@ -25,27 +26,25 @@ const Skills = () => {
   return (
     <section
       ref={ref}
-      className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40 '
-      id='skills'
+      className="mb-28 max-w-[53rem] mx-auto scroll-mt-28 text-center sm:mb-40 p-4"
+      id="skills"
     >
-      <SectionHeading>Tech Stacks.</SectionHeading>
+      <SectionHeading>Tech Stacks</SectionHeading>
       {skillsData.map((section, sectionIndex) => (
-        <div key={sectionIndex} className='mb-4'>
-          <h2 className='text-xl font-semibold text-gray-700 dark:text-white/70'>
+        <div key={sectionIndex} className="mb-10">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mt-8 mb-6">
             {section.section}
           </h2>
-          <ul className='flex flex-wrap justify-center gap-2 text-sm text-gray-800 mb-10'>
+          <ul className="flex flex-wrap justify-center gap-4 text-gray-800 dark:text-gray-300">
             {section.skills.map((skill, skillIndex) => (
               <motion.li
-                className='bg-gray-100 border-black-[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80'
+                className="bg-gray-200 dark:bg-gray-700 rounded-lg px-4 py-2 shadow-sm hover:shadow-md transition-shadow duration-200 ease-in-out"
                 key={skillIndex}
                 variants={fadeInAnimationVariants}
-                initial='initial'
-                whileInView='animate'
-                viewport={{
-                  once: true,
-                }}
-                custom={sectionIndex * section.skills.length + skillIndex}
+                initial="initial"
+                whileInView="animate"
+                viewport={{ once: true }}
+                custom={skillIndex}
               >
                 {skill}
               </motion.li>
@@ -58,5 +57,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
