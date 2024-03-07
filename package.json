@@ -11,6 +11,7 @@
     "format": "prettier --write '**/*.{js,ts,json,md}'"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.9",
     "clsx": "^2.0.0",
