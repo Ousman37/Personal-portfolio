@@ -67,15 +67,11 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         I&apos;m a{' '}
-        <span className="text-blue-500">web development graduate</span> and
-        <span className="text-blue-500">front-end developer</span>, dedicated to
-        creating
-        <span className="text-blue-500">innovative web solutions</span>. My
-        portfolio showcases my journey in overcoming challenges and perfecting
-        my craft. Let&apos;s embark on the next digital adventure together.
+        <span className="text-blue-500">web development graduate</span> and{' '}
+        <span className="text-blue-500">front-end developer</span>, driven to
+        create <span className="text-blue-500">innovative web experiences</span>
+        . Excited for new collaborations and challenges.
       </motion.p>
-
-      
 
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 mt-8 text-lg font-medium sm:flex-row"
