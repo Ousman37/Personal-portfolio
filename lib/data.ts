@@ -4,6 +4,7 @@ import JavaScriptFrameworksImg from '@/public/js_ca.png';
 import mollifyImg from '@/public/mollify.png';
 import SemesterProjectImg from '@/public/proj2.png';
 import vacationExplorerImg from '@/public/vacation-explorer.png';
+import dashboardSideProjectImg from "@/public/dashboard-sideproject.png" 
 
 export const links = [
   {
@@ -79,6 +80,25 @@ export const projectsData = [
     imageUrl: vacationExplorerImg,
     liveDemoLink: 'https://vacation-explorer.vercel.app/',
     githubLink: 'https://github.com/Ousman37/VacationExplorer',
+  },
+  {
+    title: 'Cutting-Edge Data Dashboard App',
+    description:
+      'Dive into data exploration with our React.js, Express.js, and MongoDB-powered dashboard...',
+    tags: [
+      'React.js',
+      'Express.js',
+      'MongoDB',
+      'Data Visualization',
+      'Chart.js',
+      'Recharts',
+      'API Integration',
+      'Mongoose',
+      'Axios',
+    ],
+    imageUrl: dashboardSideProjectImg,
+    liveDemoLink: 'https://dashboard-app-plum-five.vercel.app/',
+    githubLink: 'https://github.com/Ousman37/dashboard-app',
   },
 ] as const;
 
